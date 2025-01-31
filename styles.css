@@ -16,7 +16,7 @@
 	padding-left: 10px;
 }
 
-.modal-header button{
+.close-modal{
 	width: 30px;
 	height: 30px;
 	background-color: white;
@@ -24,6 +24,7 @@
 	position: absolute;
 	top: 130px;
 	left: 600px;
+	display: none;
 }
 
 .modal-body{
