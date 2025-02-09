@@ -1,4 +1,4 @@
-.model-content{
+.modal-content{
 	padding: 5px;
 	width: 600px;
 	background-color: white;
@@ -22,12 +22,23 @@
 	background-color: white;
 	border: none;
 	position: absolute;
-	top: 130px;
-	left: 600px;
-	display: none;
+	top: 340px;
+	left: 590px;
 }
 
 .modal-body{
 	padding-left: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
 }
 
