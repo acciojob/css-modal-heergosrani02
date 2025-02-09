@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeModalBtn = document.querySelector(".close-modal");
 
     openModalBtn.addEventListener("click", function () {
-        modal.style.display = "flex";
+        modal.style.display = "block";
     });
 
     closeModalBtn.addEventListener("click", function () {
